@@ -1,0 +1,14 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iPhoneWeatherWatsonDemo
+  host: iPhoneWeatherWatsonDemo
+  disk_quota: 1024M
+  services:
+  - iPhoneWeatherWatsonDemo-cloudantNoSQLDB
+  - iPhoneWeatherWatsonDemo-iotf-service
+  - Language Translator-tn
+  - Text to Speech-9z
+  - Weather Company Data-98
